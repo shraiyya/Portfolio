@@ -1,3 +1,31 @@
+var a1=0
+var a2=0
+var c=0
+
+
+function submit_form() {
+var c2=0;
+  c++
+var table = document.getElementById("input-form");
+var name=document.getElementById('name').value 
+var sub=document.getElementById('subject').value 
+var email=document.getElementById('email').value 
+var message=document.getElementById('message').value 
+var row_length=table.rows.length;
+if(c2!=1){  
+  var row = table.insertRow(c);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  var cell3 = row.insertCell(2);
+  var cell4 = row.insertCell(3);
+cell1.innerHTML=name;
+cell2.innerHTML=sub;
+cell3.innerHTML=email;
+cell4.innerHTML=message;
+  }
+}
+
+
 
 function setError(input, errormsg) {
 	const formGroup = input.parentElement;
@@ -108,11 +136,8 @@ var TxtType = function(el, toRotate, period) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
-        // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.09em solid #fef}";
         document.body.appendChild(css);
     };
-
-
