@@ -1,0 +1,25 @@
+body {
+  padding-top: 40px;
+  background-image: linear-gradient(to left, powderblue , pink);
+  
+}
+body nav {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+h1 {
+  text-align: center;
+  background-color: black;
+  color: lavender;
+  font-family: Arial;
+  font-stretch: expanded;
+}
+
+p {
+  background-color: #DCDCDC;
+  color: navy;
+  text-indent: 25px;
+  font-color:Times New Roman;
+  border-style: groove;
+}
+
